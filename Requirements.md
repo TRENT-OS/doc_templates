@@ -17,7 +17,7 @@ Firmware Update Manager
 ## Architecture
 
 @startuml
-Component Diagram
+title Component Diagram
 
 actor firmware_vendor
 
