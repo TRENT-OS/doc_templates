@@ -2,7 +2,6 @@
 
 ## Specification
 
-Data
 | JIRA ID           |  SEOS-000         |
 |-------------------|-------------------|
 | Owner             | Slawomir Kwasniak |
@@ -61,8 +60,8 @@ digraph G {
 5. And another item.
     * There shall be an abstract interactive shall reachable via UART and
       Ethernet can authenticate a user and accepts commands send by the user.
-    * If the user sends a new firmware to shell, the shell shall forward it to the
-      Secure Update component.
+    * If the user sends a new firmware to shell, the shell shall forward it to
+      the Secure Update component.
 
 * Update shall store a given firmware in some storage (non-volatile).
 * Update shall only allow an update to the newer version of the Firmware.
@@ -100,7 +99,7 @@ TBD
 ## Design Stage II
 
 | Milestone                                                             | MW |
-|-|-|
+|---|---|
 | Do this                                                               | 2  |
 | Do that                                                               | 1  |
 | Do other things                                                       | 11 |
@@ -112,9 +111,9 @@ TBD
 Definition of Done:
 
 | Criteria                                        | Done? |
-|-|-|
+|---|---|
 | Code is reviewed                                |       |
-| Code is commented                               |       |
+| Code is commented                               |  Yes  |
 | All unit tests passing on the integration line  |       |
 | Full review performed                           |       |
 | Component is used in the demo applications      |       |
@@ -123,7 +122,7 @@ Definition of Done:
 This DoD is applicable for every component (exceptions are to be listed below):
 
 | Name | Reason |
-|-|-|
+|---|---|
 | Bar  | No need for the demo, as this would impact the companies productivity |
 
 ## Markdown syntax examples
