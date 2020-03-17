@@ -1,0 +1,35 @@
+/* Copyright (C) 2020, HENSOLDT Cyber GmbH */
+
+/**
+ * @file
+ * @brief   The description stating the purpose of the assembly shall be placed
+ *          here.
+ *
+ * @note    Documentation of assembly file is optional, and also it is not
+ *          possible to document the assembly blocks, instances and connectors
+ *          inside.
+ */
+
+/** @cond SKIP_IMPORTS */
+import "Component.camkes";
+/** @endcond */
+
+assembly {
+    composition {
+        component Component foo;
+        component Component bar;
+
+        connection seL4RPCCall bus1(from foo.out, to bar.in);
+        connection seL4RPCCall bus2(from bar.out, to foo.in);
+
+        connection  seL4Notification foo_2_bar(from foo.ready, to bar.start);
+        connection  seL4Notification bar_2_foo(from bar.ready, to foo.start);
+
+        connection  seL4SharedData data(from foo.buf, to bar.buf);
+    }
+
+    configuration {
+        foo.lvl = 1;
+        bar.lvl = 2;
+    }
+}

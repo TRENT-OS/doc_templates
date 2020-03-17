@@ -1,0 +1,19 @@
+/* Copyright (C) 2020, HENSOLDT Cyber GmbH */
+
+/**
+ * @file
+ * @brief   The description stating the purpose of the interface shall be placed
+ *          here.
+ */
+
+/**
+ * @brief   This description is optional unless there are more interfaces
+ *          present in one file.
+ *
+ * @hideinitializer
+ */
+procedure Inf {
+    include "stdint.h";
+
+    int64_t read(uint64_t offset); ///< Data accessing generic interface.
+};
