@@ -10,6 +10,19 @@
  */
 #pragma once
 
+#include <stdbool.h>
+
+/**
+ * @brief  Checks if null pointer was given.
+ *
+ * @retval true  - if a null pointer
+ * @retval false - if NOT a null pointer
+ */
+bool
+isNull(
+    void const * const pointer /**< [in] Pointer to be verified */
+);
+
 /**
  * @brief  Prints given foo.
  * @return On success, the total number of characters written.
