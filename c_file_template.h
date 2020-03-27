@@ -20,7 +20,7 @@
  */
 bool
 isNull(
-    void const * const pointer /**< [in] Pointer to be verified */
+    void const * const pointer //!< [in] Pointer to be verified.
 );
 
 /**
@@ -29,6 +29,6 @@ isNull(
  */
 int
 printFoo(
-    char* foo,       /**< [in]  A C-string to print. */
-    int* charWritten /**< [out] The total number of characters written. */
+    char* foo,       //!< [in]  A C-string to print.
+    int* charWritten //!< [out] The total number of characters written.
 );
