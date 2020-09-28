@@ -32,3 +32,14 @@ printFoo(
     char* foo,       //!< [in]  A C-string to print.
     int* charWritten //!< [out] The total number of characters written.
 );
+
+/**
+ * @brief   Prints foo and suppresses the outputs
+ *
+ * @note    Unfortunately it is not possible to inline document macro's
+ *          parameters.
+ *
+ * @param   foo - [in] Character to be printed
+ *
+ */
+#define PRINT_FOO(foo) do{ int written; printFoo(foo, &written); } while(0);
