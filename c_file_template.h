@@ -29,7 +29,9 @@ isNull(
  */
 int
 printFoo(
-    char* foo,       //!< [in]  A C-string to print.
+    char* foo,       //!< [in]  A C-string to print. This is also a nice place
+                     //!<       to demonstrate multiline inline documentation of
+                     //!<       the parameter :)
     int* charWritten //!< [out] The total number of characters written.
 );
 
