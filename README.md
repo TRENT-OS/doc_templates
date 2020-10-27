@@ -20,7 +20,15 @@ git clone ssh://git@bitbucket.hensoldt-cyber.systems:7999/hc/doc_templates.git
 ```
 
 2. Copy needed templates to your repo and start editing.
-3. Update the template or add a new one, and create a pull request.
+3. Generate documentation and check the results.
+
+```bash
+doxygen
+xdg-open build/html/index.html
+```
+
+4. Update the desired template or add a new one.
+5. Create a pull request.
 
 ### Markdown
 
