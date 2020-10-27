@@ -8,7 +8,7 @@ The general rules are the following:
 * Use spell checker.
 * Keep 80 characters limit.
 * Use markdown lint when adding or editing markdown documents.
-* Always render the template prior to pushing any changes.
+* Always render the template before pushing any changes.
 
 ## Getting Started
 
