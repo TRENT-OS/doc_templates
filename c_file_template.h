@@ -20,7 +20,7 @@
  */
 bool
 isNull(
-    void const * const pointer //!< [in] Pointer to be verified.
+    void const * const pointer ///< [in] Pointer to be verified.
 );
 
 /**
@@ -29,10 +29,22 @@ isNull(
  */
 int
 printFoo(
-    char* foo,       //!< [in]  A C-string to print. This is also a nice place
-                     //!<       to demonstrate multiline inline documentation of
-                     //!<       the parameter :)
-    int* charWritten //!< [out] The total number of characters written.
+    char* foo,       /**< [in]  A C-string to print. This is also a nice place
+                                to demonstrate multiline inline documentation of
+                                the parameter :)
+
+                                Note the block comment usage in
+                                this case, due to the issues with astyle.
+
+                                Clearly this comment is already too long, and it
+                                should be considered not inlining or making it
+                                shorter but we are trying to make a point here.
+
+                                Notice that the type of the comment is
+                                consistent for all the arguments i.e. next
+                                argument is also block commented! */
+
+    int* charWritten /**< [out] The total number of characters written. */
 );
 
 /**
