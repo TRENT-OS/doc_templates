@@ -43,18 +43,18 @@ Some short text about the #defines to be set here and what they mean:
 #define XXX_PARAM_2 11
 ```
 
-## Instantiation and configuration in CAmkES
+### Instantiation and configuration in CAmkES
 
 Some short text about CAmkES setup:
 
-### Declaring the component
+#### Declaring the component
 
 ```C
 #include "XXX/XXX.camkes"
 DECLARE_COMPONENT_XXX(<NameOfComponent>)
 ```
 
-### Instantiating and connecting the component
+#### Instantiating and connecting the component
 
 ```C
 DECLARE_AND_CONNECT_INSTANCE_XXX(
@@ -63,7 +63,7 @@ DECLARE_AND_CONNECT_INSTANCE_XXX(
     YYY.yyy_dp)
 ```
 
-### Configuring the instance
+#### Configuring the instance
 
 ```C
 CONFIGURE_INSTANCE_XXX(
@@ -84,6 +84,18 @@ See above, just with concrete names and parameters.
 See above, just with concrete names and parameters.
 
 ### Instantiation and configuration of the component  in CAmkES
+
+See above, just with concrete names and parameters.
+
+#### Declaring the component in the main CAmkES file
+
+See above, just with concrete names and parameters.
+
+#### Instantiating and connecting the component in the main CAmkES file
+
+See above, just with concrete names and parameters.
+
+#### Configuring the instance in the main CAmkES file
 
 See above, just with concrete names and parameters.
 
