@@ -1,4 +1,4 @@
-/* Copyright (C) 2020, HENSOLDT Cyber GmbH */
+/* Copyright (C) 2021, HENSOLDT Cyber GmbH */
 
 /**
  * @file
@@ -8,6 +8,7 @@
  * this file in the documentation by default unless 'EXTRACT_ALL = YES' config
  * parameter is used.
  */
+
 #pragma once
 
 #include <stdbool.h>

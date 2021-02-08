@@ -1,4 +1,5 @@
-/* Copyright (C) 2020, HENSOLDT Cyber GmbH */
+/* Copyright (C) 2021, HENSOLDT Cyber GmbH */
+
 #include "c_file_template.h"
 #include <stdio.h>
 
