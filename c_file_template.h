@@ -8,7 +8,8 @@
  *
  * Please note that if the "@file" param is missing, doxygen will not include
  * this file in the documentation by default unless 'EXTRACT_ALL = YES' config
- * parameter is used.
+ * parameter is used. On the other hand a file name is not needed, as Doxygen
+ * will then use the real file name.
  */
 
 #pragma once
