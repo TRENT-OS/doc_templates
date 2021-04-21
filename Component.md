@@ -36,11 +36,9 @@ DeclareCAmkESComponent_XXX(
 
 ### Configuration of the component in system_config.h
 
-Some short text about the #defines to be set here and what they mean:
-
+Some short text about the defines to be set here and what they mean:
 ```C
-#define XXX_PARAM_1 10
-#define XXX_PARAM_2 11
+
 ```
 
 ### Instantiation and configuration in CAmkES
