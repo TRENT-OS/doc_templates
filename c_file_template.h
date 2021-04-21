@@ -4,7 +4,8 @@
 
 /**
  * @file
- * @brief Brief description of the header file.
+ *
+ * Brief description of the header file.
  *
  * Please note that if the "@file" param is missing, doxygen will not include
  * this file in the documentation by default unless 'EXTRACT_ALL = YES' config
@@ -17,7 +18,7 @@
 #include <stdbool.h>
 
 /**
- * @brief  Checks if null pointer was given.
+ * Checks if null pointer was given.
  *
  * @retval true  - if a null pointer
  * @retval false - if NOT a null pointer
@@ -28,7 +29,8 @@ isNull(
 );
 
 /**
- * @brief  Prints given foo.
+ * Prints given foo.
+ *
  * @return On success, the total number of characters written.
  */
 int
@@ -52,10 +54,9 @@ printFoo(
 );
 
 /**
- * @brief   Prints foo and suppresses the outputs
+ * Prints foo and suppresses the outputs.
  *
- * @note    Unfortunately it is not possible to inline document macro's
- *          parameters.
+ * @note Unfortunately it is not possible to inline document macro's parameters.
  *
  * @param   foo - [in] Character to be printed
  *

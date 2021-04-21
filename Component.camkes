@@ -4,10 +4,10 @@
 
 /**
  * @file
- * @brief   The description stating the purpose of the component shall be placed
- *          here.
  *
- * @note    All imports must be skipped. Otherwise the output documentation will
+ * The description stating the purpose of the component shall be placed here.
+ *
+ * @note All imports must be skipped. Otherwise the output documentation will
  *          look not so nice.
  */
 
@@ -16,8 +16,8 @@ import "Interface.camkes";
 /** @endcond */
 
 /**
- * @brief   This description is optional unless there are more components
- *          present in one file.
+ * This description is optional unless there are more components present in one
+ * file.
  *
  * @hideinitializer
  */

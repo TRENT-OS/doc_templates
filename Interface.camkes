@@ -4,13 +4,14 @@
 
 /**
  * @file
- * @brief   The description stating the purpose of the interface shall be placed
- *          here.
+ *
+ * The description stating the purpose of the interface shall be placed here.
+ *
  */
 
 /**
- * @brief   This description is optional unless there are more interfaces
- *          present in one file.
+ * This description is optional unless there are more interfaces present in one
+ * file.
  *
  * @hideinitializer
  */

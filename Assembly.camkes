@@ -4,8 +4,8 @@
 
 /**
  * @file
- * @brief   The description stating the purpose of the assembly shall be placed
- *          here.
+ *
+ * The description stating the purpose of the assembly shall be placed here.
  *
  * @note    Documentation of assembly file is optional, and also it is not
  *          possible to document the assembly blocks, instances and connectors
