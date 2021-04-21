@@ -24,7 +24,7 @@
  */
 bool
 isNull(
-    void const * const pointer ///< [in] Pointer to be verified.
+    void const * const pointer //!< [in] Pointer to be verified.
 );
 
 /**

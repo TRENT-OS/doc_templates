@@ -24,13 +24,13 @@ import "Interface.camkes";
 component Component {
     control;
 
-    dataport Buf                buf;   ///< Data exchange buffer.
+    dataport Buf                buf;   //!< Data exchange buffer.
 
-    consumes DataAvailableEvent start; ///< Starts the action.
-    emits    DataAvailableEvent ready; ///< Triggered when action is finished.
+    consumes DataAvailableEvent start; //!< Starts the action.
+    emits    DataAvailableEvent ready; //!< Triggered when action is finished.
 
-    uses     Inf                in;    ///< Data access input interface.
-    provides Inf                out;   ///< Data access output interface.
+    uses     Inf                in;    //!< Data access input interface.
+    provides Inf                out;   //!< Data access output interface.
 
-    attribute int               lvl;   ///< Action level selector.
+    attribute int               lvl;   //!< Action level selector.
 }

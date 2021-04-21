@@ -17,5 +17,5 @@
 procedure Inf {
     include "stdint.h";
 
-    int64_t read(uint64_t offset); ///< Data accessing generic interface.
+    int64_t read(uint64_t offset); //!< Data accessing generic interface.
 };
