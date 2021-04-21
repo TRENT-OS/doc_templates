@@ -11,6 +11,13 @@
  * this file in the documentation by default unless 'EXTRACT_ALL = YES' config
  * parameter is used. On the other hand a file name is not needed, as Doxygen
  * will then use the real file name.
+ *
+ * @ingroup templates
+ * @defgroup templates The Templates Group
+ *
+ * Templates Group brief description.
+ *
+ * Templates Group detailed description.
  */
 
 #pragma once
