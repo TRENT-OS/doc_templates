@@ -18,5 +18,12 @@
 procedure Inf {
     include "stdint.h";
 
-    int64_t read(uint64_t offset); //!< Data accessing generic interface.
+    /**
+     * Reads at the given offset.
+     *
+     * @return Number of bytes read.
+     */
+    int64_t read(
+        uint64_t offset //!< [in] Read offset.
+    );
 };
