@@ -8,12 +8,16 @@
 #include <stdio.h>
 
 bool
-isNull(void const * const pointer)
+isNull(
+   void const * const pointer)
 {
    return NULL == pointer;
 }
 
-int printFoo(char* foo, int* charWritten)
+int
+printFoo(
+   char* foo,
+   int* charWritten)
 {
    *charWritten = printf("%s", foo);
 
