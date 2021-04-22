@@ -1,4 +1,6 @@
 /*
+ * Brief description of the source file.
+ *
  * Copyright (C) 2020-2021, HENSOLDT Cyber GmbH
  */
 
