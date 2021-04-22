@@ -8,7 +8,7 @@
  * The description stating the purpose of the component shall be placed here.
  *
  * @note All imports must be skipped. Otherwise the output documentation will
- *          look not so nice.
+ *          not look nice.
  */
 
 /** @cond SKIP_IMPORTS */
