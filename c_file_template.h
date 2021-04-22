@@ -37,8 +37,9 @@ isNull(
 /**
  * Prints given foo.
  *
- * @return On success, the total number of characters written.
- *
+ * @retval >=0 On success, the total number of characters written.
+ * @retval <0  On failure.
+
  * @param[in]  foo         A C-string to print. This is also a nice place to
  *                         demonstrate a multiline documentation of the
  *                         parameter :) Notice that the type of the comment is
@@ -59,7 +60,6 @@ printFoo(
  *
  * @note Unfortunately it is not possible to inline document macro's parameters.
  *
- * @param[in] foo Character to be printed.
- *
+ * @param[in] foo A C-string to print.
  */
 #define PRINT_FOO(foo) do{ int written; printFoo(foo, &written); } while(0);
