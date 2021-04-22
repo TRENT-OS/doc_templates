@@ -7,8 +7,10 @@
  *
  * The description stating the purpose of the assembly shall be placed here.
  *
- * @note Documentation of assembly file is optional, and also it is not possible
- *       to document the assembly blocks, instances and connectors inside.
+ * @note All imports must be skipped, otherwise the output will not look nice.
+ *
+ * @note Documentation of assemblies is optional and it is not possible to
+ *       document the assembly blocks, instances and connectors.
  */
 
 /** @cond SKIP_IMPORTS */

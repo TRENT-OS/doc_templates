@@ -6,12 +6,14 @@
  * @file
  *
  * The description stating the purpose of the interface shall be placed here.
- *
  */
 
 /**
  * This description is optional unless there are more interfaces present in one
  * file.
+ *
+ * @note The initializer has to be hidden, otherwise the output will not look
+ *       nice.
  *
  * @hideinitializer
  */

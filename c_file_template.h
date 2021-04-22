@@ -7,10 +7,9 @@
  *
  * Brief description of the header file.
  *
- * Please note that if the "@file" param is missing, doxygen will not include
- * this file in the documentation by default unless 'EXTRACT_ALL = YES' config
- * parameter is used. On the other hand a file name is not needed, as Doxygen
- * will then use the real file name.
+ * Please note that if the "@file" is missing, doxygen will not include this
+ * file in the documentation. But no file name has to be specified, as doxygen
+ * will automatically use the real file name.
  *
  * @ingroup templates
  * @defgroup templates The Templates Group

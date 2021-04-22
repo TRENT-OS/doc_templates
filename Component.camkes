@@ -7,8 +7,8 @@
  *
  * The description stating the purpose of the component shall be placed here.
  *
- * @note All imports must be skipped. Otherwise the output documentation will
- *       not look nice.
+ * @note All imports must be skipped, otherwise the output will not look nice.
+ *
  */
 
 /** @cond SKIP_IMPORTS */
@@ -18,6 +18,9 @@ import "Interface.camkes";
 /**
  * This description is optional unless there are more components present in one
  * file.
+ *
+ * @note The initializer has to be hidden, otherwise the output will not look
+ *       nice.
  *
  * @hideinitializer
  */
