@@ -27,8 +27,8 @@
 /**
  * Checks if null pointer was given.
  *
- * @retval true  - if a null pointer
- * @retval false - if NOT a null pointer
+ * @retval true  If a null pointer.
+ * @retval false If NOT a null pointer.
  */
 bool
 isNull(
