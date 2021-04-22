@@ -56,6 +56,14 @@ printFoo(
 );
 
 /**
+ * Gets the number.
+ *
+ * @return A pointer to the valid number that will never be NULL.
+ */
+int*
+getNumber();
+
+/**
  * Prints foo and suppresses the outputs.
  *
  * @note Unfortunately it is not possible to inline document macro's parameters.
