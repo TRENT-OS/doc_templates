@@ -66,7 +66,7 @@ getNumber();
 /**
  * Prints foo and suppresses the outputs.
  *
- * @note Unfortunately it is not possible to inline document macro's parameters.
+ * @note It is not possible to inline document macro parameters.
  *
  * @param[in] foo A C-string to print.
  */
