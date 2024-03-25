@@ -43,6 +43,10 @@ For documents formated in markdown the following tools are recommended:
 * [Doxygen](http://doxygen.nl/)
 * [Notable standalone editor](https://notable.md/)
 
-### Dependencies
+## License
 
-N/A
+All files in this module are released under BSD-3 license, except those from
+the 3rd party modules mentioned below.
+
+
+

@@ -1,7 +1,9 @@
 /*
  * Brief description of the source file.
  *
- * Copyright (C) 2020-2021, HENSOLDT Cyber GmbH
+ * Copyright (C) 2020-2024, HENSOLDT Cyber GmbH
+ *
+ *  SPDX-License-Identifier: BSD-3-Clause
  */
 
 #include "c_file_template.h"
